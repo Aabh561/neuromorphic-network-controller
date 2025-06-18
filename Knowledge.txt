@@ -1,0 +1,28 @@
+🧠 Project Name:
+"Neuromorphic Network Controller with SNNs and STDP-Based Adaptive Routing"
+
+🔍 What Is This Project?
+
+This project simulates a smart computer network — like the kind used in the internet, data centers, or mobile networks — but controlled by brain-inspired AI instead of regular algorithms.
+
+We use a Spiking Neural Network (SNN), which is a type of artificial neural network that mimics how actual brain neurons work (with electrical spikes instead of plain numbers). It learns in a biological way using something called STDP (Spike-Timing Dependent Plasticity) — this means the network learns automatically based on timing of spikes.
+
+🧪 Real-World Analogy (Simple Example)
+
+Imagine a network of 6 routers in a circular loop. Each router decides which direction to forward internet traffic.
+
+Now imagine these routers have tiny brain-like agents that watch the traffic and fire electrical spikes to indicate which direction has the least delay or best capacity.
+
+If one router suddenly goes down (say due to a cyberattack or hardware failure), the rest of the network adapts and reroutes traffic — without needing to reboot or reprogram anything.
+
+It’s like your brain finding a new walking path when you hit traffic — automatically.
+
+💡 What Are the Smart Features?
+
+Feature	How It Works
+Example
+🔁 Live Routing	Chooses best traffic paths based on brain-like activity	If Node 1 is too busy, use Node 2 and 3
+⚡ Spiking Neurons	Each router's decision is made using biologically inspired SNNs	Neuron spikes mean “go this way”
+🧠 STDP Learning	Learns from timing of traffic spikes (like human brain)	“Last time this path was fast — let’s reuse it”
+💥 Attack/Failure Recovery	If a router fails (simulated attack), system reroutes	Node 4 fails → reroute via 2 → 5
+📊 Dashboard	Professors can simulate failures and see how it reacts	Move a slider to disable Node 3, see results live
