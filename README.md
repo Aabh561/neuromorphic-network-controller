@@ -73,4 +73,10 @@ This simulation serves as a **foundation for neuromorphic SDN (Software Defined 
 ---
 
 ### 📁 Folder Structure
+## 🚀 Launch Notebook
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aabh561/neuromorphic-network-controller/blob/main/Neuromorphic_Network_Controller.ipynb)
+
+
+
 
